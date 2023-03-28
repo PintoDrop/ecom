@@ -64,3 +64,8 @@ GIVEN a functional Express.js API
 
 ![Seeds Screen Shot]()
 
+
+
+<!-- Need to reference ids in models
+get by single item and other routes 
+gets associated by id?-->
