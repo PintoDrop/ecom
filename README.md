@@ -15,11 +15,13 @@
 
 ## Description
 
+For this assignment I was tasked with building the back end of an e-commerce website. I will be taking a working express.js API and alter it to be able to interact with sequelize and MYSQL database. I will be testing in the insomnia application.
+
 ## Usage
 
 ## Installation
 
-You will need to install node, inquirer, console.table and MySQL2 after cloning the repo
+You will need to install node packages including MYSQL2, sequelize and dotenv after cloning the repo.
 
 ## License
 
