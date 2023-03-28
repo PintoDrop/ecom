@@ -6,33 +6,35 @@ CREATE DATABASE ecommerce_db;
 
 USE ecommerce_db;
 CREATE TABLE category (
-  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   category_name NOT NULL STRING
 )
 
 CREATE TABLE product (
-  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
-  product_name NOT NULL STRING
-  price DECIMAL NOT NULL 
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  product_name NOT NULL VARCHAR(30),
+  price DECIMAL NOT NULL DECIMAL,
   -- (validate value is decimal)
-  stock INT NOT NULL 
+  stock INT NOT NULL DEFAULT 10,
   -- (set default value of 10 & validates value is numeric)
   category_id INT 
   -- references the category model's id
 )
 
 CREATE TABLE tag (
-  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
-  tag_name 
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  tag_name VARCHAR(30)
   -- make string
 )
 
 CREATE TABLE productTag (
-  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
-  product_id INT
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  product_id INT,
   -- references the product models' id
-  tag_id INT
+  tag_id INT "SELECT * from "
   -- references the tag model's id
 )
+
+"SELECT * from ArticlesInPages join articles on articles.article_id = ArticlesInPages.article_id where page_id = 1"
 
 
