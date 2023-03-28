@@ -68,4 +68,5 @@ GIVEN a functional Express.js API
 
 <!-- Need to reference ids in models
 get by single item and other routes 
-gets associated by id?-->
+gets associated by id?
+models/index.js double check relations-->

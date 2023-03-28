@@ -10,7 +10,6 @@ router.get("/", async (req, res) => {
     const categoryData = await Category.findAll({});
     console.log(categoryData);
     res.json(categoryData);
-    // res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
   }
