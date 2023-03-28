@@ -31,10 +31,10 @@ CREATE TABLE productTag (
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   product_id INT,
   -- references the product models' id
-  tag_id INT "SELECT * from "
+  tag_id INT "SELECT id from tag join id on productTag.tag_id = tag.id"
   -- references the tag model's id
 )
 
-"SELECT * from ArticlesInPages join articles on articles.article_id = ArticlesInPages.article_id where page_id = 1"
+-- "SELECT * from ArticlesInPages join articles on articles.article_id = ArticlesInPages.article_id where page_id = 1"
 
 
