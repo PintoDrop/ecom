@@ -70,4 +70,6 @@ GIVEN a functional Express.js API
 get by single item and other routes 
 gets associated by id?
 models/index.js double check relations
-create new product code?-->
+create new product code?
+updating and posting ?
+models - index.js (belongsTo code)-->
