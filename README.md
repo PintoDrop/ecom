@@ -74,4 +74,5 @@ search for one piece of data for product, tag and category
 models/index.js double check relations
 create new product code?
 updating and posting ?
-models - index.js (belongsTo code)-->
+models - index.js (belongsTo code)
+-->
