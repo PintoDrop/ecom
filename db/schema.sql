@@ -35,6 +35,5 @@ CREATE DATABASE ecommerce_db;
   -- references the tag model's id / using foreign or primary key?
 -- )
 
--- "SELECT * from ArticlesInPages join articles on articles.article_id = ArticlesInPages.article_id where page_id = 1"
 
 

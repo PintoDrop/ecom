@@ -66,9 +66,11 @@ GIVEN a functional Express.js API
 
 
 
-<!-- Need to reference ids in models
+<!-- 
 get by single item and other routes 
 gets associated by id?
+search for one piece of data for product, tag and category
+
 models/index.js double check relations
 create new product code?
 updating and posting ?
