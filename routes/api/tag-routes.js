@@ -8,8 +8,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
   try {
     const tagData = await Tag.findAll({
-      include: [{ model: Product, through: ProductTag,}],
-    });
+      include: [Product]});
     console.log(tagData);
     res.json(tagData);
   } catch (err) {
@@ -28,20 +27,6 @@ router.get('/', async (req, res) => {
     .catch((err) => res.status(400).json(err));
 });
 
-  //   try {
-  //     const productTag = await ProductTag.findByPk(req.params.id, {
-  //       include: [{ model: Product, through: Tag, as: "product_tag" }],
-  //     });
-
-  //     if (!productTag) {
-  //       res.status(404).json({ message: "No product tags found with this ID" });
-  //       return;
-  //     }
-  //     res.status(200).json(productTag);
-  //   } catch (err) {
-  //     res.status(500).json(err);
-  //   }
-  // });
 
 router.post('/', async (req, res) => {
   // create a new tag
@@ -66,16 +51,16 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try {
-    const productTagData = await ProductTag.destroy ({
+    const tag = await Tag.destroy ({
       where: {
         id: req.params.id
       }
     });
-    if (!productTagData) {
+    if (!tag) {
       res.status(404).json ({ message: 'No product tags found with this ID'});
       return;
     }
-    res.status(200).json(productTagData);
+    res.status(200).json(tag);
   } catch (err) {
     res.status(500).json(err);
   }
