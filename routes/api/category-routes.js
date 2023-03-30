@@ -2,7 +2,6 @@ const router = require("express").Router();
 const { Category, Product } = require("../../models");
 
 
-
 router.get("/", async (req, res) => {
 
   try {
@@ -20,7 +19,6 @@ router.get("/:id", async (req, res) => {
   })
     .then((category) => res.json(category))
     .catch((err) => res.status(400).json(err));
-
 });
 
 router.post("/", async (req, res) => {
