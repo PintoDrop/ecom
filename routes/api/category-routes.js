@@ -60,7 +60,7 @@ router.put("/:id", async (req, res) => {
   } catch(err) {
     res.status(400).json(err);
   }
-  })
+  });
 // });
 
 router.delete("/:id", async (req, res) => {

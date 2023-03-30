@@ -71,6 +71,7 @@ GIVEN a functional Express.js API
 Need put (good?) & delete (good?) for category
 
 check models index.js for relations
+
  post/create/put/delete for products routes
  post/put/delete for tag routes
  -->
