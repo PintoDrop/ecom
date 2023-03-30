@@ -67,14 +67,10 @@ GIVEN a functional Express.js API
 ![Seeds Screen Shot]()
 
 
-
 <!-- 
-get by single item and other routes 
-gets associated by id?
-search for one piece of data for product, tag and category
+Need put (good?) & delete (good?) for category
 
-models/index.js double check relations
-create new product code?
-updating and posting ? for tag-routes & product-routes
-models - index.js (belongsTo code)
--->
+check models index.js for relations
+ post/create/put/delete for products routes
+ post/put/delete for tag routes
+ -->
