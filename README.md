@@ -58,7 +58,7 @@ GIVEN a functional Express.js API
 
 ## Walkthrough-Video
 
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1Onvp4B3JpOADRyyo2HGvUZ_wXWc0wfPm/view)
 
 ## Screen-Shots
 
@@ -71,3 +71,11 @@ GIVEN a functional Express.js API
 ![Tag js Ids](./images/Tagsjs.JPG)
 
 ![Model Index](./images/modelIndex.JPG)
+
+![Category Get in insomnia](./images/catGets.JPG)
+
+![Category Delete in insomnia](./images/catDelete.JPG)
+
+![Tags Post in insomnia](./images/tagPost.JPG)
+
+![Tags Put (updating) in insomnia](./images/tagPut(update).JPG)
