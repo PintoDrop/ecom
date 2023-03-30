@@ -15,7 +15,7 @@
 
 ## Description
 
-For this assignment I was tasked with building the back end of an e-commerce website. I will be taking a working express.js API and alter it to be able to interact with sequelize and MYSQL database. I will be testing in the insomnia application once it is linked to MYSQL so the information is seeded onto my table.
+For this assignment I was tasked with building the back end of an e-commerce website. I will be taking a working express.js API and alter it to be able to interact with sequelize and MYSQL database. I will be testing in the insomnia application once it is linked to MYSQL so the information is seeded onto my table.While testing in insomnia I will be able to convey how I can retreive the information for categories, tags and products with the GET method. I will also show how you can create, update and delete from categories, tags and products by using the put, post and delete methods in insomnia. 
 
 ## Usage
 
@@ -62,9 +62,13 @@ GIVEN a functional Express.js API
 
 ## Screen-Shots
 
-![MySql Screenshot]()
+![Category js ids](./images/categoryjs.JPG)
 
-![Seeds Screen Shot]()
+![Products js ids](./images/productjs.JPG)
+
+![Product Tags js Ids](./images/ProductTagjs.JPG)
+
+![Tag js Ids](./images/Tagsjs.JPG)
 
 
 <!-- 
