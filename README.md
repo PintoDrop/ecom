@@ -70,10 +70,4 @@ GIVEN a functional Express.js API
 
 ![Tag js Ids](./images/Tagsjs.JPG)
 
-
-<!-- 
-
-
-check models index.js for relations
-decimal for price of products rounding up
- -->
+![Model Index](./images/modelIndex.JPG)
